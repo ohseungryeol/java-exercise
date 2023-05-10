@@ -7,7 +7,6 @@ public class PyramidShapeDrawerTest {
         ParallelogramShapeDrawer parallelogramShapeDrawer = new ParallelogramShapeDrawer();
         ShapeDrawer shape = new ParallelogramShapeDrawer();
 
-
         parallelogramShapeDrawer.printShape(4);
         shape.printShape(4);
     }
