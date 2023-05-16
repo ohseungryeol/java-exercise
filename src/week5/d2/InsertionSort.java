@@ -2,7 +2,7 @@ package week5.d2;
 
 import java.util.Arrays;
 
-public class InsertionSort {
+public class InsertionSort { //삽입정렬
     public int[] sort(int[] arr, boolean isAsc){
 
 
