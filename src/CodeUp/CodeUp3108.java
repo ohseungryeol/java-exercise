@@ -2,7 +2,7 @@ package CodeUp;
 
 import java.util.*;
 
-public class CodeUp3108 {
+class CodeUp3108 {
     static class Student implements Comparable<Student>{
         int testNumber;
         String name;
@@ -34,7 +34,7 @@ public class CodeUp3108 {
                for (int j=0; j<arr.size(); j++){
                    if(arr.get(j).testNumber==testNumber){ //
                        arr.remove(j);
-                       check[testNumber]=0;
+                       //check[testNumber]=0;
                    }
                }
             }
